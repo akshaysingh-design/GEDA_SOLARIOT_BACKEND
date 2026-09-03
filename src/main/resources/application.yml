@@ -33,6 +33,9 @@ jwt:
   access-ttl-minutes: ${JWT_ACCESS_TTL_MINUTES:15}
   pending-ttl-minutes: ${JWT_PENDING_TTL_MINUTES:5}
 
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173,https://solariotscada.vercel.app}
+
 app:
   otp:
     dev-expose: false

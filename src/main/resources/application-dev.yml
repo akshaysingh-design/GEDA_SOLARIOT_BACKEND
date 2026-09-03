@@ -3,7 +3,7 @@ app:
     dev-expose: false
 
 cors:
-  allowed-origin: http://localhost:5173
+  allowed-origins: http://localhost:5173,https://solariotscada.vercel.app
 
 logging:
   level:
